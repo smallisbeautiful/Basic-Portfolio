@@ -4,7 +4,7 @@
 <head>  
 
     <meta charset="UTF-8" />
-    <title>Peggy Liu Contact</title>
+    <title>Peggy Liu's Portfolio</title>
     <link rel="stylesheet" type="text/css"  href="style.css"    media="all" />
     
 </head>
@@ -12,52 +12,49 @@
 <body>  
 
     <div class="header">
-
-        <h1>Peggy Liu</h1>
-    
-        <nav>
-                <ul>
-                    <li><a ref="http://google.com"  target="_blank">About</a></li>
-                    <li><a ref="http://google.com"  target="_blank">Portfolio</a></li>  
-                    <li><a ref="http://google.com"  target="_blank">Contact</a></li>  
-                </ul>
-        </nav>
         
-    </header> 
+        <div class="set-width">
 
-    <div class="contact">
+            <h1 class="main-heading">Peggy Liu</h1>
+    
+            <ul class="nav">
+                <li><a id="active"  href="#contact">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>  
+                <li><a href="index.html">About</a></li>  
+            </ul>
+        
+    </div> 
 
-        <h2>Contact</h2>
-
-        <form class="form">
-
-            <p>Name</p>
-
-            <p class="name">
-                <input type="text"  name="name" id="name"   placeholder="John Smith" />
-            </p>
+    <div class="contact"    id="contact">
             
-            <p>Email</p>
+            <h1 Class="page-heading">Contact</h1>
             
-            <p class="email">
-                <input type="text"  name="email" id="email"   placeholder="example@gmail.com" />
-            </p>     
-
-            <p>Message</p>    
-
-            <p class="message">
-                <textarea name="message"></textarea>
-            </p>
-
-            <p class="submit">
+            <form class="form">
+                
+                <label for="name">Name</label>
+                <input type="text"  id="name"   placeholder="John Smith" />
+                
+                <label for="email">Email</label>
+                <input type="text"  id="email"   placeholder="example@gmail.com" />
+                       
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+                
                 <input type="submit" value="Submit" />
-            </p>
-
-        </form>
+                
+            </form>
+            
+    </div>
 
     <div class="footer">
-            <p>Copyright ©</p>
-        </div>
+            
+            <footer class="footer">
+                <p>
+                    <i>Copyright ©</i>
+                </p>
+            </footer>
+
+    </div>
 
 </body>
 
