@@ -1,15 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+}
+
+body {
+  background-image: src="assets/images/ep_naturalwhite.png"; 
+  font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+  color: #777777;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background-color: #ffffff;
-  margin-bottom: 2px;
-  width: 100%;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 5px solid #cccccc;
+  height: 70px;
 }  
   
 h1 {
-  padding: 25px;
-  width: 960px;
-  background color: #4aaaa5;
-  background-color: #ffffff;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  background-color: #4aaaa5;
   font-size: 20px;
   text-align: center;
   display: inline-block;
@@ -27,7 +42,7 @@ nav {
   float: right;
 }
 
-.content {
+.main {
   background-color: ;
 
 }
@@ -38,6 +53,9 @@ nav {
   color: #777777;
   width: 100%;
 }  
+
+
+}
 
 .footer {
   Background-color: #666666;
