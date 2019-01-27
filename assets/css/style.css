@@ -21,43 +21,219 @@ body {
   font-family: Georgia, Times, 'Times New Roman', serif;
   border-bottom: 5px solid #cccccc;
   height: 70px;
+  margin: 0;
+  padding: 0;
 }  
   
-h1 {
+.main-heading {
   background-color: #4aaaa5;
-  font-size: 20px;
+  color: white;
+  font-size: 40px;
   text-align: center;
   display: inline-block;
   float: left;
 }
 
-nav {
-  padding: 25px;
-  width: 960px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  font-size: 10px;
-  text-align: right; 
+.nav {
   list-style-type: none;
+  background-color: white;
+  color: #777777;
+  font-size: 15px;
+  text-align: center;
+  padding: 25px; 
   display: inline-block;
   float: right;
 }
 
-.main {
-  background-color: ;
-
+li {
+  float: right;
 }
-.bio,
-.form,
-.portfolio {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
+
+
+.main,
+.portfolio,
+.contact {
+  background-color: #ffffff;
+
+
+
+
+
+
+  
+  
   width: 100%;
 }  
 
+.page-heading {
+
+
+
+
+}
+ 
+hr {
+  background-color: #dddddd;
+  height: 3px;
+  size: 2px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.bio {
+
+  
+}
+
+
+.projects {
+  margin: 20px;
+  float: left;
+}
+
+#project-image1 {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#project-name1 {
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+#project-image2 {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#project-name2 {
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+#project-image3 {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#project-name3 {
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+#project-image4 {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#project-name4 {
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+#project-image5 {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#project-name5 {
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+#project-image6 {
+  width: 30%;
+  height: 20%;
+  position: relative;
+  z-index: 1;
+}
+
+#project-name6 {
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+}
+
+.form {
+
 
 }
 
+
+label {
+  color: #777777;
+}
+
+
+input[type=text],
+select,
+textarea {
+  color: #777777;
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}         
+        
+input[type=submit] {
+  color: #777777;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+  color: white;
+}
+
+input[type=submit]:active {
+  background-color: #085753;
+}        
+        
 .footer {
   Background-color: #666666;
-  font-size: 5px;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
 }
